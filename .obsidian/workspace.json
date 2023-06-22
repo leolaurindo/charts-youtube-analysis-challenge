@@ -31,6 +31,25 @@
               }
             }
           }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a40b5653ecab2488",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "970e86fcbfe9e69e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Instruções.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
         ]
       }
     ],
@@ -98,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Instruções.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Instruções.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Instruções.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,9 +178,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6ef9dad6aa78dd1",
+  "active": "5b12bbb765211142",
   "lastOpenFiles": [
-    "README.md",
-    "Instruções.md"
+    "Instruções.md",
+    "README.md"
   ]
 }

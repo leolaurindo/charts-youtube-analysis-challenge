@@ -1,6 +1,30 @@
+
 # Análise dos charts do YouTube Brasil das últimas 71 semanas.
 
 ## Introdução
+
+Este repo foi desenvolvido como teste técnico para um processo seletivo para vaga de analista júnior.
+
+Abaixo, as instruções para o desafio:
+
+1 - **Montar base de dados com as top 100 faixas semanais de 07/02/22 até 02/06/23 do [Youtube Brasil](https://charts.youtube.com/charts/TopSongs/br?hl=pt)**.
+
+2 - **Classificações**:
+- Frontline: As faixas com menos de 42 meses de lançamento são consideradas `frontline`.
+- Catálogo: São as faixas com 42 meses ou mais de lançamento.
+
+3 - Análises:
+As respostas deverão ser respondidas em um relatório em formato de email ou powerpoint. Foi optado formato .pdf/email.
+
+- PERGUNTA 1: Qual o artista que mais teve faixas no Top 100 ao longo desses anos?
+
+- PERGUNTA 2: Qual a posição mais alta que uma faixa atingiu na semana de seu lançamento? E qual foi a faixa? - ver published date
+
+- PERGUNTA 3: Qual o ano teve o maior número de views no chart? E qual foi sua taxa de crescimento em relação ao ano anterior?
+
+- PERGUNTA 4: Existe alguma tendência de crescimento ou queda do frontline no chart ao longo dos anos?
+
+- PERGUNTA 5: Nossa impressão é que o tempo que as faixas permanecem no chart está diminuindo e com isso, mais faixas diferentes estão passando pelo chart. Com os dados extraídos, é possível comprovar essa afirmativa?
 
 ## Resultados
 
@@ -57,5 +81,3 @@
 	- requirements.txt
 	- requirements.yml
 - **reference_dates.json**: arquivo `.json` retirado da aba `networks` do `developer tools` da página que será raspada. Ele possui chaves `id`, `startTime` e `endTime`, que são usadas para filtrar os charts mostrados na página.
-
-
