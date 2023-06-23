@@ -49,8 +49,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e075df5a265014bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +193,18 @@
   },
   "active": "5b12bbb765211142",
   "lastOpenFiles": [
-    "Instruções.md",
-    "README.md"
+    "data/refined/refined.csv",
+    "data/refined/refined.pkl",
+    "data/trusted/published_dates.csv",
+    "notebooks/2_data_wrangling.ipynb",
+    "data/trusted/2_data_wrangling.ipynb",
+    "data/trusted/weekly_charts.pkl",
+    "data/trusted/weekly_charts.csv",
+    "data/trusted",
+    "README_EN.md",
+    "README.md",
+    "notebooks/1_data_cleansing.ipynb",
+    "Untitled",
+    "Instruções.md"
   ]
 }

@@ -1,6 +1,8 @@
 
 # Análise dos charts do YouTube Brasil das últimas 71 semanas.
 
+There will be an english version soon for this readme.
+
 ## Introdução
 
 Este repo foi desenvolvido como teste técnico para um processo seletivo para vaga de analista júnior.
@@ -28,6 +30,20 @@ As respostas deverão ser respondidas em um relatório em formato de email ou po
 
 ## Resultados
 
+Os resultados estão expostos no arquivo `relatorio.pdf`, com as devidas visualizações e explicações. O notebook `3_data_analysis.ipynb` mostra o racional e o caminho para chegar nas respostas.
+
+As respostas para as perguntas individuais são
+
+1: 
+
+2: 
+
+3: 
+
+4: 
+
+5:
+
 ## Como rodar
 
 1. Clone este repositório em sua máquina.
@@ -50,8 +66,8 @@ As respostas deverão ser respondidas em um relatório em formato de email ou po
 .
 ├── data
 │   ├── raw
-│   ├── processed
-│   └── external
+│   ├── trusted
+│   └── refined
 ├── notebooks
 ├── scripts
 ├── output
