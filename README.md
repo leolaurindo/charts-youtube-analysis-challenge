@@ -1,11 +1,13 @@
 
 # Análise dos charts do YouTube Brasil das últimas 71 semanas.
 
-There will be an english version soon for this readme.
-
 ## Introdução
 
-Este repo foi desenvolvido como teste técnico para um processo seletivo para vaga de analista júnior.
+Este repo foi desenvolvido como teste técnico para um processo seletivo para vaga de analista.
+
+Deixei meus notebooks de exploração anexados junto ao projeto para que meu processo de pensamento seja visualizado pelos avaliadores, porém, nem todos os gráficos estão na entrega final, que deve ser a considerada.
+
+Os relatórios finais se encontram no diretório `reports`, sob formato de texto e slide.
 
 Abaixo, as instruções para o desafio:
 
@@ -34,15 +36,15 @@ Os resultados estão expostos no arquivo `relatorio.pdf`, com as devidas visuali
 
 As respostas para as perguntas individuais são
 
-1: 
+1:  Henrique e Juliano, com 24 faixas.
 
-2: 
+2: A posição mais elevada é o primeiro lugar no ranking. Quem atingiu foi Zé Felipe e Mc Mari
 
-3: 
+3: Apresentamos duas métricas. Uma apresenta uma queda de -11,38% e outra um minúsculo crescimento de 0,10% de 2022 para 2023. Estão apresentadas nos relatórios.
 
-4: 
+4: Existe uma *levíssima* tendência de alta identificada por meio de uma linha de regressão linear.
 
-5:
+5: Existe uma sutil tendência de queda no tempo que as faixas permanecem nos charts, com 1 semana a menos em 2023 em relação a 2022.
 
 ## Como rodar
 
@@ -77,8 +79,11 @@ As respostas para as perguntas individuais são
 └── .env
 └── requirements
 │   ├── requirements.txt
-│   └── requirements.yml
-
+│   └── environment.yml
+└── reports
+	├── YouTube BR charts_slide.pdf
+	├── YouTube BR charts_slide.ppt
+	└── YouTube BR charts_textreport.pdf
 ```
 
 - **data**:
