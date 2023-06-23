@@ -59,6 +59,7 @@ As respostas para as perguntas individuais são
 		- Caso opte por rodá-lo em `.py`, como nesse diretório, é necessário instalar a biblioteca `dotenv`. Digite `pip install python-dotenv` no terminal de seu ambiente de execução.
 4. Abra a pasta de `notebooks` e insira, no `2_data_wrangling.ipynb`, a sua chave de acesso à `api` do `YouTube Data v3`. Saiba como gerar a sua [neste link](https://developers.google.com/youtube/registering_an_application?hl=pt-br). Após, remova a formatação `docstring` da célula.
 	- Alternativamente, ignore esse passo e utilize os dados já capturados na pasta `raw`.
+5. Inicie o script de raspagem `youtube_weekly_charts_scrapper.py` e rode os notebooks na pasta `notebooks` em ordem.
 
 
 
