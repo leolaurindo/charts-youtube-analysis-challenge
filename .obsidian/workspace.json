@@ -195,6 +195,10 @@
   },
   "active": "9a4bead2d144e31c",
   "lastOpenFiles": [
+    "output/images/frontlines_weekly_trend.png",
+    "output/images/top_10_artists_track_uniques.png.~tmp",
+    "output/refined_for_tableau/cleaned_data.xlsx",
+    "notebooks/cleaned_data.xlsx",
     "output/images/frontlines_trend.png",
     "output/images/yearly_views.png",
     "output/refined_for_tableau/yearly_data.xlsx",
@@ -212,9 +216,6 @@
     "Instruções.md",
     "notebooks/3_data_analysis.ipynb",
     "3_data_analysis.ipynb",
-    "notebooks/3_exploratory_data_analysis.ipynb",
-    "data/refined/refined.csv",
-    "data/refined/refined.pkl",
     "README_EN.md"
   ]
 }

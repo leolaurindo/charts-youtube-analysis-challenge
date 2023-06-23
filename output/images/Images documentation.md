@@ -1,4 +1,4 @@
-Arquivo: top_10_by_track_uniques.png
+Arquivo: `top_10_by_track_uniques.png`
 Descrição: Gráfico de barras com os 10 artistas com mais faixas nos charts do período analisado
 Base de dados: `top_10_artists_by_track.xlsx`
 Processo:
@@ -12,15 +12,15 @@ Processo:
 
 ---
 
-Arquivo: first_week_charts.png
-Base de dados: refined.csv
+Arquivo: `first_week_charts.png`
+Base de dados: `refined.csv`
 Processo documentado na heading `B` do [terceiro notebook](/notebooks/3_data_analysis.ipynb)
 Descrição: Gráfico de barras com as top 10 faixas da semana entre 17 de junho de 2022 e 23 de junho de 2022.
 
 ---
 
-Arquivo: week_release_views.png
-Base de dados: refined_with_first_week_release.xlsx
+Arquivo: `week_release_views.png`
+Base de dados: `refined_with_first_week_release.xlsx`
 Descrição: gráfico de círculos com as 25 músicas com mais views na semana de lançamento.
 Processo: 
 1. Filtro: Track Name, top 25, by views.
@@ -34,8 +34,8 @@ Processo:
 
 ---
 
-Arquivo: yearly_views.png
-Base de dados: yearly_data.xlsx
+Arquivo: `yearly_views.png`
+Base de dados: `yearly_data.xlsx`
 Descrição: gráfico de barras "side-by-side" que mostra a média de visualizações por mês de cada ano e a soma de visualizações entre os mesmos meses (de fevereiro a junho)
 Processo:
 1. Coluna: Measure Values
@@ -47,8 +47,8 @@ Processo:
     - SUM(Avg)
 
 ---
-Arquivo: frontlines_trend.png
-Base de dados: refined.csv
+Arquivo: `frontlines_trend.png`
+Base de dados: `refined.csv`
 Descrição: Scatterplot com linha de regressão mostrando tendência para a quantidade de frontlines nos charts ao longo das semanas.
 Processo: Processo documentado na heading `D` do [terceiro notebook](/notebooks/3_data_analysis.ipynb)
 
