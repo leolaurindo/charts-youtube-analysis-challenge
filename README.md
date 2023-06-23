@@ -7,7 +7,7 @@ Este repo foi desenvolvido como teste técnico para um processo seletivo para va
 
 Deixei meus notebooks de exploração anexados junto ao projeto para que meu processo de pensamento seja visualizado pelos avaliadores, porém, nem todos os gráficos estão na entrega final, que deve ser a considerada.
 
-Os relatórios finais se encontram no diretório `reports`, sob formato de texto e slide.
+Os relatórios finais se encontram no diretório `reports`, sob formato de [texto](reports/YouTube%20BR%20charts_textreport.pdf), [slide em pdf](reports/YouTube%20BR%20charts_slide.pdf) e [slide em ppt](reports/YouTube%20BR%20charts_slide.pptx).
 
 Abaixo, as instruções para o desafio:
 
