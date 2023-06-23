@@ -48,12 +48,12 @@ As respostas para as perguntas individuais são
 
 1. Clone este repositório em sua máquina.
 2. Reproduza o ambiente de execução em sua máquina:
-	- Opção 1: certifique-se de ter o `python` e o gerenciador de pacotes `pip` instalados. Crie um ambiente `python -m venv myenv`, ative-o e reproduza o ambiente com o comando `pip install -r requirements.txt` em seu terminal.
+	- Opção 1: certifique-se de ter o `python` e o gerenciador de pacotes `pip` instalados. Crie um ambiente `python -m venv <myenv>`, ative-o e reproduza o ambiente com o comando `pip install -r requirements.txt` em seu terminal.
 	- Opção 2: instale o gerenciador de ambientes Conda em sua máquina. Recrie o ambiente com o comando `conda env create --file requirements.yml`. Ative o ambiente criado.
 3. Configurando segredos:
-	- Opção 1: Insira as variáveis `CHROME_DRIVER_PATH` e `DOWNLOAD_CHARTS_PATH` no `PATH` do windows. Eles deverão receber, respectivamente, o caminho do `webdriver` e o caminho para a paste de download dos arquivos.
-	- Opção 2: Configure um arquivo `.env` com os caminhos `CHROME_DRIVER_PATH=` e `DOWNLOAD_CHARTS_PATH=` dentre deste diretório. Eles deverão receber, respectivamente, o caminho do `webdriver` e o caminho para a paste de download dos arquivos.
-		- Se o `script` for executado dentro da pasta, o `.env` será executado automatica.
+	- Opção 1: Insira as variáveis `CHROME_DRIVER_PATH` e `DOWNLOAD_CHARTS_PATH` no `PATH` do windows. Eles deverão receber, respectivamente, o caminho do `webdriver.exe` e o caminho para a pasta de download dos arquivos.
+	- Opção 2: Configure um arquivo `.env` com os caminhos `CHROME_DRIVER_PATH=` e `DOWNLOAD_CHARTS_PATH=` dentro deste diretório. Eles deverão receber, respectivamente, o caminho do `webdriver/`, diretório contido neste projeto, e o caminho para a pasta de download dos arquivos brutos `raw/`.
+		- Se o `script` for executado dentro da pasta, o `.env` será executado automaticamente.
 		- Caso opte por rodá-lo em `.py`, como nesse diretório, é necessário instalar a biblioteca `dotenv`. Digite `pip install python-dotenv` no terminal de seu ambiente de execução.
 4. Abra a pasta de `notebooks` e insira, no `2_data_wrangling.ipynb`, a sua chave de acesso à `api` do `YouTube Data v3`. Saiba como gerar a sua [neste link](https://developers.google.com/youtube/registering_an_application?hl=pt-br). Após, remova a formatação `docstring` da célula.
 	- Alternativamente, ignore esse passo e utilize os dados já capturados na pasta `raw`.
@@ -92,8 +92,9 @@ As respostas para as perguntas individuais são
 - **output**:
 	- **refined_for_tableau**: arquivos .`xlsx` para construir visualizações específicas no tableau
 	- **imagens**: imagens de gráficos para serem exportadas para o report.pdf
-- **webdriver**: diretório que armazena o `webdriver` para execução do `scrap`
+- **webdriver**: diretório que armazena o `chromedriver.exe` para execução do `scrap`. O webdriver é uma ferramenta que permite automatização de tarefas a serem executadas em um navegador. Ele é compatível com google chrome.
 - **requirements:** arquivos com lista de dependências em `.txt` para `pip` e `.yml` para o gerenciador de ambientes `conda`
 	- requirements.txt
 	- requirements.yml
 - **reference_dates.json**: arquivo `.json` retirado da aba `networks` do `developer tools` da página que será raspada. Ele possui chaves `id`, `startTime` e `endTime`, que são usadas para filtrar os charts mostrados na página.
+- **youtube_weekly_charts_scrapper.py**: arquivo que executa o `script` de `scraping`. O script utiliza a biblioteca `selenium` para navegar pelas diferentes `urls` dos charts e baixar os `.csvs` brutos que permitirão a análise. A página possui um objeto javascript filtrado por semana e por número de views. A diferença das `urls` são as datas, que são compostas pela data de abertura e a data de fechamento da semana em formato YYYY-MM-DD. O script identifica o botão de douwnload e baixa um arquivo `.csv`. Após o download, o arquivo é lido com a biblioteca pandas, adiciona uma coluna numérica para referenciar a semana (`week_ref`), uma contendo a data de abertura da semana (`week_open`) e outra contendo a data de fechamento (`week_close`). Ao final, o script imprime seu tempo de execução, a quantidade de arquivos baixados e o tempo médio de execução por arquivo baixado.

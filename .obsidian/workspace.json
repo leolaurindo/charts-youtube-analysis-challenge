@@ -6,6 +6,7 @@
       {
         "id": "cf566b87d4ad8bd2",
         "type": "tabs",
+        "dimension": 53.10907237512742,
         "children": [
           {
             "id": "f6ef9dad6aa78dd1",
@@ -20,12 +21,12 @@
             }
           },
           {
-            "id": "5b12bbb765211142",
+            "id": "9a4bead2d144e31c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Esqueleto_relatorio.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,6 +38,7 @@
       {
         "id": "a40b5653ecab2488",
         "type": "tabs",
+        "dimension": 46.89092762487258,
         "children": [
           {
             "id": "970e86fcbfe9e69e",
@@ -130,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Esqueleto_relatorio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Esqueleto_relatorio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Esqueleto_relatorio.md"
               }
             }
           }
@@ -191,20 +193,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b12bbb765211142",
+  "active": "9a4bead2d144e31c",
   "lastOpenFiles": [
+    "output/images/frontlines_trend.png",
+    "output/images/yearly_views.png",
+    "output/refined_for_tableau/yearly_data.xlsx",
+    "output/images/week_release_views.png",
+    "output/images/top_10_artists_track_uniques.png",
+    "output/refined_for_tableau/refined_with_first_week_release.xlsx",
+    "output/images/first_week_charts.png",
+    "output/images/Images documentation.md",
+    "output/images/Documentation.md",
+    "output/refined_for_tableau/top_10_artists_by_track.xlsx",
+    "output/refined_for_tableau/top_10_artists.xlsx",
+    "output/refined_for_tableau/refined.xlsx",
+    "README.md",
+    "Esqueleto_relatorio.md",
+    "Instruções.md",
+    "notebooks/3_data_analysis.ipynb",
+    "3_data_analysis.ipynb",
+    "notebooks/3_exploratory_data_analysis.ipynb",
     "data/refined/refined.csv",
     "data/refined/refined.pkl",
-    "data/trusted/published_dates.csv",
-    "notebooks/2_data_wrangling.ipynb",
-    "data/trusted/2_data_wrangling.ipynb",
-    "data/trusted/weekly_charts.pkl",
-    "data/trusted/weekly_charts.csv",
-    "data/trusted",
-    "README_EN.md",
-    "README.md",
-    "notebooks/1_data_cleansing.ipynb",
-    "Untitled",
-    "Instruções.md"
+    "README_EN.md"
   ]
 }

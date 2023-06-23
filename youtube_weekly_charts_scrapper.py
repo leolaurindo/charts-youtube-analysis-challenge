@@ -1,3 +1,18 @@
+"""
+This script executes a scrap using selenium library to navigate
+through different urls of the YouTube chart web page and to download
+the .csv files that will empower our analysis. The page has javascript
+object filtered by week and number of views. The difference in urls are
+the dates, which are composed of the opening date of the week and its
+closing date in YYYY-MM-DD format. The script identifies the download
+button and downloads a .csv file. After the download, the file is read
+with the pandas library, a numerica column is added to reference the
+week, another one is added with the opening date of the week and for
+the last column added the script adds the week's closing date. In the
+end, the script prints its execution time, the number of files downloaded
+and the average execution time per downloaded file.
+"""
+
 import os
 from selenium.webdriver.chrome.service import Service
 import time
